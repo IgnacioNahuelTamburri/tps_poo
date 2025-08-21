@@ -14,7 +14,7 @@ public class Main {
         lista.agregarAlFinal(11);
         lista.agregarAlFinal(12);
 
-        // lista.eliminar(11);
+
 
         lista.mostrar();
 
