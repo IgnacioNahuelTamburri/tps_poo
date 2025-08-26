@@ -10,10 +10,11 @@ public class Curso {
     private Profesor profesor;
     private ArrayList<Estudiante> estudiantes;
 
-    public Curso (String nombre, String descripcion, String codigo){
+    public Curso (String nombre, String descripcion, String codigo, Profesor profesor){
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.codigo = codigo;
+        this.profesor = profesor;
         this.estudiantes = new ArrayList<>();
     }
 

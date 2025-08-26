@@ -17,6 +17,14 @@ public class Estudiante {
         return nombre;
     }
 
+    public String getLegajo() {
+        return legajo;
+    }
+
+    public String getInscripciones() {
+        return inscripciones.toString();
+    }
+
     public void inscribirCurso (Curso curso){
         Inscripcion inscripcion = new Inscripcion(this,curso);
         inscripciones.add(inscripcion);
