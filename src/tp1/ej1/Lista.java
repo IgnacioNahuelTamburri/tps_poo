@@ -1,4 +1,4 @@
-package tp1;
+package tp1.ej1;
 
 public class Lista {
     private Nodo nodo;
