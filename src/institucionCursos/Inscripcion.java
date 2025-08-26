@@ -14,6 +14,7 @@ public class Inscripcion {
         this.fecha = hora.format(formato);
         this.estudiante = estudiante;
         this.curso = curso;
+        this.curso.inscribirEstudiante(estudiante);
     }
 
     public String getNombre (){

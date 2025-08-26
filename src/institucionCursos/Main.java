@@ -18,6 +18,6 @@ public class Main {
         estudiante3.inscribirCurso(curso3);
         System.out.println("Nombre de profesor: " + profesor1.getNombre() + " Email: " + profesor1.getEmail() + " Legajo: " + profesor1.getLegajo());
         System.out.println("Nombre de estudiante: " + estudiante1.getNombre() + " Legajo: " + estudiante1.getLegajo() + " Inscripto a: " + estudiante1.getInscripciones());
-
+        System.out.println("Estudiantes inscriptos a POO: " + curso1.getEstudiantes());
     }
 }

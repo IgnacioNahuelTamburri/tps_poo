@@ -25,4 +25,17 @@ public class Curso {
     public Profesor getProfesor() {
         return profesor;
     }
+
+    public void inscribirEstudiante(Estudiante estudiante){
+        estudiantes.add(estudiante);
+    }
+
+    public String getEstudiantes() {
+        String nombres = "";
+        for (Estudiante estudiante:estudiantes){
+            nombres = nombres + estudiante.getNombre() + " ";
+
+        }
+        return nombres;
+    }
 }

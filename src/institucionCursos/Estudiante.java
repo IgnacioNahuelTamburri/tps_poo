@@ -29,4 +29,5 @@ public class Estudiante {
         Inscripcion inscripcion = new Inscripcion(this,curso);
         inscripciones.add(inscripcion);
     }
+
 }
